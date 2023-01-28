@@ -1,0 +1,6 @@
+.venv
+/venv
+.DS_Store
+hua_images/
+iph_images/
+redchair/

@@ -115,7 +115,7 @@ class Data(Dataset):
       gt_ill = torch.tensor([])
 
     # computes histogram feature of rgb and edge images
-    if self.input_size is 64:
+    if self.input_size == 64:
       post_fix = ''
     else:
       post_fix = f'_{self.input_size}'
